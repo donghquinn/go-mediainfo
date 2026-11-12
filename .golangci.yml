@@ -1,0 +1,17 @@
+version: "2"
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - revive
+    - staticcheck
+  exclusions:
+    rules:
+      # Deferred Close in examples and tests mirrors typical caller code.
+      - path: (_test\.go|example/)
+        text: "Error return value of `.*Close` is not checked"
+
+formatters:
+  enable:
+    - goimports

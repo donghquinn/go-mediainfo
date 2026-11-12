@@ -1,0 +1,14 @@
+# Library release: no binaries, just a GitHub Release with a changelog.
+version: 2
+
+builds:
+  - skip: true
+
+changelog:
+  use: github
+  sort: asc
+  filters:
+    exclude: ["^docs:", "^test:", "^ci:", "^chore:"]
+
+release:
+  prerelease: auto
