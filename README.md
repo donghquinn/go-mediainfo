@@ -113,5 +113,8 @@ git push origin v1.0.0
 
 ## License
 
-BSD 2-Clause. See [LICENSE](LICENSE). Based on the original
-[dwbuiten/go-mediainfo](https://github.com/dwbuiten/go-mediainfo) by Derek Buitenhuis.
+MIT. See [LICENSE](LICENSE).
+
+Based on the original [dwbuiten/go-mediainfo](https://github.com/dwbuiten/go-mediainfo) by
+Derek Buitenhuis, distributed under the BSD 2-Clause license. Its notice is kept in
+[NOTICE](NOTICE).
